@@ -1,0 +1,58 @@
+body{
+    background: gray;
+}
+.taiji{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    border-radius: 100%;
+    background: white;
+   
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 200px 0px 0px;
+    margin:50px auto;
+    box-shadow: 0 0 200px springgreen;
+}
+.taiji:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 100px ;
+    background: WHITE;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    }
+.taiji::after
+{
+    content: "";
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 100%;
+    left: 100px;
+    top: 200px;
+}
+.circle1{
+    width: 70px;
+    height:70px;
+    background:black;
+    border-radius: 100%;
+    position: absolute;
+    left: 165px ;
+    top: 65px;  
+}
+.circle2{
+    width: 70px;
+   height:70px;
+   background: white;
+   border-radius:100%;
+   position:absolute;
+   left:165px;
+   top:265px;
+   z-index:2;
+   
+ }
